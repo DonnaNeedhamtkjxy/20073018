@@ -1,3 +1,4 @@
+props.load(fs);
 out.close();
 out.write(”aString”);
 Properties props = new Properties();
