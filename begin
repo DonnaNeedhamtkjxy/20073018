@@ -1,3 +1,4 @@
+} catch (IOException e) {
 props.load(fs);
 out.close();
 out.write(”aString”);
