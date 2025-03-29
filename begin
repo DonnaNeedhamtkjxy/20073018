@@ -1,3 +1,4 @@
+con=DriverManager.getConnection(url, userName, password);
 rs.close();
 props.load(fs);
 public void init(FileInputStream fs) throws ClassNotFoundException, SQLException, FileNotFoundException, IOException
