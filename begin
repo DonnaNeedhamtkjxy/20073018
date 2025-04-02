@@ -1,3 +1,4 @@
+out.close();
 // error processing code
 out.write(”aString”);
 con=DriverManager.getConnection(url, userName, password);
